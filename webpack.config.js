@@ -89,7 +89,7 @@ module.exports = {
         new HtmlWebpackPlugin({
           template: './src/projects.html',
           filename: 'projects.html',
-          }),
+        }),
 
         new MiniCssExtractPlugin({
             filename: 'css/style.css',
