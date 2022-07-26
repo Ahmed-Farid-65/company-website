@@ -9615,6 +9615,33 @@ a.text-dark:focus, a.text-dark:hover {
   background-color: #ff7766;
 }
 
+.btn:active, .btn:focus,
+button:active,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer {
+  display: block;
+}
+
+.thumb {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.projects-details .card .card-body .card-title {
+  font-weight: 800;
+  color: #ff7766;
+}
+
+@media (max-width: 576px) {
+  .projects-details .thumb {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
 @font-face {
   font-family: "cairoFont";
   src: url(../fonts/Cairo-Regular.ttf);

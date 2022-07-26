@@ -46,3 +46,47 @@
         
     }
 }
+
+//............................................... PROJECT-DETAILS PAGE .................................................
+
+.btn,
+button {
+    &:active,
+    &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+}
+  
+#image-gallery {
+    .modal-footer {
+        display: block;
+    }
+
+}
+  
+.thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.projects-details {
+    .card {
+        .card-body {
+            .card-title {
+                font-weight: 800;
+                color: $main-color;
+            }
+        }
+    }
+}
+
+
+@media (max-width:576px) {
+    .projects-details {
+        .thumb{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+}
