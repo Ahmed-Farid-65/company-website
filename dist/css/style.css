@@ -9578,6 +9578,43 @@ a.text-dark:focus, a.text-dark:hover {
 /*!**************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/style.scss ***!
   \**************************************************************************************************************/
+.banner #banner-img {
+  background-image: url(../images/projects-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  height: 250px;
+}
+.banner .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(65, 155, 155, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.banner .title {
+  font-weight: bold;
+  color: #fff;
+}
+
+.our-works .custom-btn-2 {
+  color: #363636;
+  background-color: #fff;
+  border: none;
+  border-radius: 1px;
+  font-weight: bold;
+  position: absolute;
+  right: 25px;
+  top: 20px;
+}
+.our-works .custom-btn-2:hover, .our-works .custom-btn-2:focus {
+  color: #fff;
+  background-color: #ff7766;
+}
+
 @font-face {
   font-family: "cairoFont";
   src: url(../fonts/Cairo-Regular.ttf);
