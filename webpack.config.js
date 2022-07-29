@@ -94,6 +94,18 @@ module.exports = {
           template: './src/projects-details.html',
           filename: 'projects-details.html',
         }),
+        new HtmlWebpackPlugin({
+          template: './src/blog.html',
+          filename: 'blog.html',
+        }),
+        new HtmlWebpackPlugin({
+          template: './src/blog-details.html',
+          filename: 'blog-details.html',
+        }),
+        new HtmlWebpackPlugin({
+          template: './src/add-blog.html',
+          filename: 'add-blog.html',
+        }),
 
         new MiniCssExtractPlugin({
             filename: 'css/style.css',
