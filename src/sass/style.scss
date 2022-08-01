@@ -1,6 +1,8 @@
 @import './variable.scss';
 @import './projects.scss';
 @import './blog.scss';
+@import './about.scss';
+@import './contact.scss';
 
 
 @font-face {
@@ -33,6 +35,11 @@ body {
                     border-bottom: 1px solid $main-color;
                 }
             } 
+
+            .active a {
+                color: $main-color !important;
+                border-bottom: 1px solid $main-color;
+            }
         }
     }
 }

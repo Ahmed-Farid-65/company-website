@@ -17,6 +17,21 @@ $(function(){
     }
     );
 
+    // .......................................active....................................
+
+    var pathname = window.location.pathname; //احضار المسار المتواجد فيه 
+
+    $('.navbar-nav > li > a[href="'+pathname+'"]').parent().addClass('active');
+
+    // ...............................الصفحات الفرعيه.........................
+
+    if (pathname == '/blog-details.html' || pathname == '/add-blog.html') {
+      $('.navbar-nav > li > a[href="/blog.html"]').parent().addClass('active');
+    }
+
+    if (pathname == '/projects-details.html') {
+      $('.navbar-nav > li > a[href="/projects.html"]').parent().addClass('active');
+    }
     // .............................project-details page................................... 
 
     let modalId = $('#image-gallery');
